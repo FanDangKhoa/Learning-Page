@@ -50,12 +50,19 @@ li {
 /* Header */
 
 .header {
-  margin-top: 52px;
+  padding: 52px 0 25px;
+  background-color: #fff;
 }
 .header .body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #fff;
+}
+.header.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .header .nav ul {
   display: flex;
@@ -85,7 +92,7 @@ li {
 /* Hero */
 
 .hero {
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
 }
 .hero .body {
